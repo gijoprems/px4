@@ -1,11 +1,7 @@
 [submodule "src/modules/mavlink/mavlink"]
 	path = src/modules/mavlink/mavlink
-	url = https://github.com/modalai/mavlink.git
-	branch = pr-add-modalai-payload-types
-[submodule "src/drivers/uavcan/libuavcan"]
-	path = src/drivers/uavcan/libuavcan
-	url = https://github.com/dronecan/libuavcan.git
-	branch = main
+	url = https://github.com/mavlink/mavlink.git
+	branch = master
 [submodule "Tools/simulation/jmavsim/jMAVSim"]
 	path = Tools/simulation/jmavsim/jMAVSim
 	url = https://github.com/PX4/jMAVSim.git
@@ -16,7 +12,7 @@
 	branch = main
 [submodule "src/drivers/gps/devices"]
 	path = src/drivers/gps/devices
-	url = https://github.com/modalai/PX4-GPSDrivers
+	url = https://github.com/PX4/PX4-GPSDrivers.git
 	branch = main
 [submodule "platforms/nuttx/NuttX/nuttx"]
 	path = platforms/nuttx/NuttX/nuttx
@@ -58,13 +54,28 @@
 	path = src/lib/crypto/libtommath
 	url = https://github.com/PX4/libtommath.git
 	branch = px4
-[submodule "src/modules/microdds_client/Micro-XRCE-DDS-Client"]
-	path = src/modules/microdds_client/Micro-XRCE-DDS-Client
+[submodule "src/modules/uxrce_dds_client/Micro-XRCE-DDS-Client"]
+	path = src/modules/uxrce_dds_client/Micro-XRCE-DDS-Client
 	url = https://github.com/PX4/Micro-XRCE-DDS-Client.git
 	branch = px4
-[submodule "boards/modalai/voxl2/src/lib/libmodal-pipe"]
-	path = boards/modalai/voxl2/src/lib/libmodal-pipe
-	url = https://gitlab.com/voxl-public/voxl-sdk/core-libs/libmodal-pipe.git
+[submodule "src/lib/cdrstream/cyclonedds"]
+	path = src/lib/cdrstream/cyclonedds
+	url = https://github.com/px4/cyclonedds
+[submodule "src/lib/cdrstream/rosidl"]
+	path = src/lib/cdrstream/rosidl
+	url = https://github.com/px4/rosidl
+[submodule "src/modules/zenoh/zenoh-pico"]
+	path = src/modules/zenoh/zenoh-pico
+	url = https://github.com/px4/zenoh-pico
+	branch = dev/1.0.0-px4
+[submodule "src/lib/heatshrink/heatshrink"]
+	path = src/lib/heatshrink/heatshrink
+	url = https://github.com/PX4/heatshrink.git
+	branch = px4
+[submodule "Tools/simulation/gz"]
+	path = Tools/simulation/gz
+	url = https://github.com/PX4/PX4-gazebo-models.git
+	branch = main
 [submodule "boards/modalai/voxl2/libfc-sensor-api"]
 	path = boards/modalai/voxl2/libfc-sensor-api
 	url = https://gitlab.com/voxl-public/voxl-sdk/core-libs/libfc-sensor-api.git
